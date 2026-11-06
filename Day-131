@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+    int n;
+    // Read the number of languages
+    scanf("%d", &n);
+    
+    // Each language has 2 courses, so total courses = 2 * n
+    printf("%d\n", 2 * n);
+    
+    return 0;
+}
