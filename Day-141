@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+    int x, y;
+    scanf("%d %d", &x, &y);
+    
+    // Check if Alice's score is at least twice of Bob's score
+    if (x >= 2 * y) {
+        printf("Yes\n");
+    } else {
+        printf("No\n");
+    }
+
+    return 0;
+}
