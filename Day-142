@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+    int a, b;
+    scanf("%d %d", &a, &b);
+    
+    // Check if the condition for a Oneful Pair holds
+    if (a + b + (a * b) == 111) {
+        printf("Yes\n");
+    } else {
+        printf("No\n");
+    }
+
+    return 0;
+}
