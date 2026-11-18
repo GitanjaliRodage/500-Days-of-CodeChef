@@ -1,0 +1,12 @@
+# Read the number of test cases
+t = int(input())
+
+for _ in range(t):
+    # Read the starting time X
+    x = int(input())
+    
+    # Check if starting at X allows finishing by 10 PM
+    if x <= 7:
+        print("Yes")
+    else:
+        print("No")
